@@ -1,7 +1,7 @@
 <template>
   <div class="h-screen w-full bg-table fixed top-0 left-0 flex items-center justify-center">
-    <div class="w-[54.4rem] bg-white pt-[2.2rem] pr-[2.8rem] h-[45.6rem]">
-      <div class="flex items-center justify-end">
+    <div class="w-[54.4rem] bg-white pt-[2.2rem] h-[45.6rem]">
+      <div class="flex items-center justify-end pr-[2.8rem]">
         <button v-on:click="closeAll"><CloseIcon /></button>
       </div>
       <div class="mt-[7.1rem] flex justify-center">
